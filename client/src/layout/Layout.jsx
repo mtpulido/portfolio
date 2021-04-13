@@ -17,7 +17,7 @@ const Layout = (props) => {
             <div className="nav-links">Contact</div>
           </Link>
           <a
-           href="https://drive.google.com/file/d/1BJiU3hYch43DoefopgONCWAW7lI10n2B/view?usp=sharing"
+           href="https://drive.google.com/file/d/184ofYRkfnMZ7eVv8DxYdu-0_ssp_Lm2d/view?usp=sharing"
            target="_blank"
            rel="noreferrer">
             <div className="nav-links">Resume</div>
