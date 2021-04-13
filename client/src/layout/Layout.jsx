@@ -6,16 +6,22 @@ const Layout = (props) => {
     <div className="layout">
       <div className="nav-container">
         <div className="nav-name-container">
+        <Link to="/">
           <div className="nav-name">Mike Pulido</div>
-          <div className="nav-title">Software Engineer</div>
-        </div>
+            <div className="nav-title">Software Engineer</div>
+            </Link>
+          </div>
+          
         <div className="nav-links-container">
           <Link to="/contact">
             <div className="nav-links">Contact</div>
           </Link>
-          <Link to="/resume">
+          <a
+           href="https://drive.google.com/file/d/1BJiU3hYch43DoefopgONCWAW7lI10n2B/view?usp=sharing"
+           target="_blank"
+           rel="noreferrer">
             <div className="nav-links">Resume</div>
-            </Link>
+            </a>
         </div>
       </div>
       <div className="layout-children">{props.children}</div>

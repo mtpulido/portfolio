@@ -2,6 +2,7 @@ import './App.css';
 import { Route, Switch } from "react-router-dom"
 import Layout from "./layout/Layout"
 import Home from "./screens/home/Home"
+import Contact from "./screens/contact/Contact"
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Layout>
         <Switch>
           <Route path="/contact">
-
+            <Contact/>
           </Route>
 
           <Route path="/resume">
