@@ -37,7 +37,7 @@ const Projects = (props) => {
       <div className="project">
         <img src={SalesSkywalker} alt="project" className="project-image" />
         <div className="project-title">Sales Skywalker</div>
-        <div className="project-caption">A full-stack application functioning as a play-off of Sales Force. It shows users their relevenant analytics to improve their performance as well as stay organized in their daily tasks. </div>
+        <div className="project-caption">A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks. </div>
         </div>
       </a>
       <a
