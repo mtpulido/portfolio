@@ -1,8 +1,11 @@
+import AboutMe from "../../components/About Me/AboutMe"
+import Projects from "../../components/Projects/Projects"
 
 const Home = (props) => {
   return (
     <div>
-      hi
+      <AboutMe />
+      <Projects />
     </div>
   )
 }

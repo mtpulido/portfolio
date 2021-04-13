@@ -10,8 +10,12 @@ const Layout = (props) => {
           <div className="nav-title">Software Engineer</div>
         </div>
         <div className="nav-links-container">
-          <div className="nav-links">Contact</div>
-          <div className="nav-links">Resume</div>
+          <Link to="/contact">
+            <div className="nav-links">Contact</div>
+          </Link>
+          <Link to="/resume">
+            <div className="nav-links">Resume</div>
+            </Link>
         </div>
       </div>
       <div className="layout-children">{props.children}</div>
