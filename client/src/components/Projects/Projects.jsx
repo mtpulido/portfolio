@@ -6,7 +6,7 @@ import './Projects.css'
 
 const Projects = (props) => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
         <a
         href="https://songsu.netlify.app/"
         target="_blank"
@@ -30,7 +30,7 @@ const Projects = (props) => {
         </div>
       </a>
       <a
-        href="https://affectionate-mayer-464b3c.netlify.app/"
+        href="https://sales-skywalker.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
