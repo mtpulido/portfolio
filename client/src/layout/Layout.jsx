@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Layout.css";
 
 const Layout = (props) => {
