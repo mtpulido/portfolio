@@ -8,14 +8,16 @@ const Layout = (props) => {
       <a
         href="https://www.linkedin.com/in/mpulido03/"
         target="_blank"
-        rel="noreferrer"
+          rel="noreferrer"
+          className="footer-elements"
       >
        <i class="fab fa-linkedin"></i> LinkedIn
       </a>
       <a
         href="https://github.com/mtpulido"
         target="_blank"
-        rel="noreferrer"
+          rel="noreferrer"
+          className="footer-elements"
       >
      <i class="fab fa-github"></i> GitHub
       </a>

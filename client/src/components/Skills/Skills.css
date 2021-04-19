@@ -7,7 +7,6 @@
 
 .skills-container {
   height: 85vh;
-  max-height: 700px;
   max-width: 100vw;
   overflow-x: hidden;
   display: flex;

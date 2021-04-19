@@ -16,7 +16,7 @@ const AboutMe = (props) => {
            href="https://drive.google.com/file/d/184ofYRkfnMZ7eVv8DxYdu-0_ssp_Lm2d/view?usp=sharing"
            target="_blank"
            rel="noreferrer">
-            <div className="nav-links">Resume</div>
+            <div className="nav-links">Resumé</div>
             </a>
         </div>
         {/* <img src={headshot} alt="headshot" className="headshot" /> */}
