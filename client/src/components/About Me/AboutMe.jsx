@@ -22,7 +22,7 @@ const AboutMe = (props) => {
         {/* <img src={headshot} alt="headshot" className="headshot" /> */}
         <div className="greeting-container">
       <div className="greeting">Hello! My name is Mike Pulido</div>
-          <div className="tagline">I'm <ReactTypingEffect speed={95} eraseSpeed={80} eraseDelay={2500} typingDelay={800}
+          <div className="tagline">I'm <ReactTypingEffect speed={95} eraseSpeed={80} eraseDelay={1500} typingDelay={800}
         text={["a Software Engineer.", "an Avid Golfer.", "a Dog Lover."]}
       />  </div>
         </div>
