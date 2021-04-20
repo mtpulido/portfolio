@@ -25,7 +25,7 @@ const Projects = (props) => {
       github: "https://github.com/mtpulido/Sales-Skywalker",
       pictures: [SalesSkywalker],
       title: "Sales Skywalker",
-      info: "Ruby on Rails | JavaScript | React | PostgreSQL | Heroku",
+      info: "Ruby on Rails | JavaScript | React | PostgreSQL | Heroku | CSS",
       caption:
         "A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks.",
     },
