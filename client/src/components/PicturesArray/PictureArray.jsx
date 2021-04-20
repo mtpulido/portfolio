@@ -4,7 +4,7 @@ import "./PictureArray.css"
 const PictureArray = (props) => {
   return (
     <div>
-      <img src={props.picture} className='project-image'/>
+      <img src={props.picture} alt="project" className='project-image'/>
     </div>
   )
 }
