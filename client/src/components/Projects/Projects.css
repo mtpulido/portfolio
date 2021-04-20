@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height:100vh;
+  height:90vh;
 }
 .carousel-container {
   height: 60vh;
@@ -83,6 +83,7 @@
   transform: scale(1.03);
   box-shadow:  0 0 2px grey;
   transition: .1s;
+  background-color: #7e02d1  ;
 }
 
 .project-caption {
@@ -125,6 +126,7 @@
   box-shadow:  0 0 2px grey;
   transition: .1s;
   cursor: pointer;
+  background-color: #0084dc;
 }
 
 .back-button {
@@ -145,4 +147,47 @@
   box-shadow:  0 0 2px grey;
   transition: .1s;
   cursor: pointer;
+  background-color: #0084dc;
+}
+
+.fade-enter{
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.fade-exit{
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-enter-active{
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit-active{
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active,
+.fade-exit-active{
+  transition: opacity 350ms, transform 350ms;
+}
+
+.fades-enter{
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fades-exit{
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fades-enter-active{
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fades-exit-active{
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.fades-enter-active,
+.fades-exit-active{
+  transition: opacity 350ms, transform 350ms;
 }

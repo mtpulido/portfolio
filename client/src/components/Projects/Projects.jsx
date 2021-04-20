@@ -7,7 +7,7 @@ import GolfCrunch3 from "../../golfcrunch3.png";
 import "./Projects.css";
 import { useState } from "react";
 import PictureArray from "../PicturesArray/PictureArray";
-// import { Transition } from 'react-transition-group';
+import { SwitchTransition, CSSTransition } from "react-transition-group";
 
 const Projects = (props) => {
   const projects = [
@@ -50,20 +50,29 @@ const Projects = (props) => {
   ];
 
   const [projectIndex, setProjectIndex] = useState(0);
+  const [fades, setFades] = useState('fade')
 
   const incrementIndex = () => {
+    setFades('fade')
     projects.length - 1 === projectIndex ? setProjectIndex(0) : setProjectIndex((prevState) => prevState + 1);
   };
   const decrementIndex = () => {
+    setFades('fades')
     projectIndex !== 0 ? setProjectIndex((prevState) => prevState - 1) : setProjectIndex(projects.length - 1);
   };
 
   const PicturesJSX = projects[projectIndex].pictures.map((picture, index) => (
-    <PictureArray picture={picture} />
+    <PictureArray picture={picture} index={index}/>
   ));
 
   return (
     <div className="projects-container" id="projects">
+          <SwitchTransition>
+      <CSSTransition
+          key={projectIndex}
+          addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}
+          classNames={fades}
+      >
       <div className="carousel-container">
         <div className="project-title">{projects[projectIndex].title}</div>
         <div className="project-info">{projects[projectIndex].info}</div>
@@ -94,7 +103,9 @@ const Projects = (props) => {
             next
         </div>
         </div>
-      </div>
+          </div>
+          </CSSTransition>
+      </SwitchTransition>
     </div>
   );
 };

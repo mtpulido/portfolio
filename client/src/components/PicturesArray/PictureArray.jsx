@@ -1,5 +1,4 @@
 import React from 'react'
-import "./PictureArray.css"
 
 const PictureArray = (props) => {
   return (

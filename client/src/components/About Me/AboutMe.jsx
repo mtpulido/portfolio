@@ -1,5 +1,4 @@
 import './AboutMe.css'
-// import { Link } from "react-router-dom"
 import { Link } from "react-scroll"
 import DownArrow from "../../downarrow.png"
 import ReactTypingEffect from 'react-typing-effect'
@@ -16,7 +15,7 @@ const AboutMe = (props) => {
            href="https://drive.google.com/file/d/1jRJ2w4R_jzQQO2v68QyE61ZuqhOlMkik/view?usp=sharing"
            target="_blank"
            rel="noreferrer">
-            <div className="nav-links">Resumé</div>
+            <div className="nav-links">Resumé & Contact Info</div>
             </a>
         </div>
         {/* <img src={headshot} alt="headshot" className="headshot" /> */}
