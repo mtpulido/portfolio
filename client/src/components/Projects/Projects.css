@@ -79,6 +79,12 @@
   filter: drop-shadow(0 0 1px grey);
 }
 
+.project-link:hover {
+  transform: scale(1.03);
+  box-shadow:  0 0 2px grey;
+  transition: .1s;
+}
+
 .project-caption {
   grid-area: D;
   height: 25vh;
@@ -114,6 +120,13 @@
  
 }
 
+.next-button:hover {
+  transform: scale(1.03);
+  box-shadow:  0 0 2px grey;
+  transition: .1s;
+  cursor: pointer;
+}
+
 .back-button {
   font-size: 20px;
   width: 115px;;
@@ -125,5 +138,11 @@
   justify-content: center;
   border-radius: 50px;
   filter: drop-shadow(0 0 1px grey);
+}
 
+.back-button:hover {
+  transform: scale(1.03);
+  box-shadow:  0 0 2px grey;
+  transition: .1s;
+  cursor: pointer;
 }

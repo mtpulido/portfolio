@@ -1,4 +1,4 @@
-// import SportsBook from "../../sportsbooks.png";
+import SportsBook from "../../sportsbooks.png";
 import GolfCrunch from "../../golfcrunch.png";
 import GolfCrunch2 from "../../golfcrunch2.png";
 import SongsYou from "../../songsyou.png";
@@ -31,12 +31,21 @@ const Projects = (props) => {
     },
     {
       website: "https://golf-crunch.netlify.app/",
-      github: "https://github.com/mtpulido/The-Golf-Crunch-App",
+      github: "https://github.com/mtpulido/Pulido-SportsBook",
       pictures: [GolfCrunch2, GolfCrunch3, GolfCrunch],
       title: "Golf Crunch",
       info: "React | JavaScript | JSX | CRUD |Airtable | CSS",
       caption:
         "A mobile application that helps golfers of all skill levels keep track of their statistics, access customized analysis, and view the rounds their friends have submitted.",
+    },
+    {
+      website: "https://mtpulido.github.io/Pulido-SportsBook/",
+      github: "https://github.com/mtpulido/The-Golf-Crunch-App",
+      pictures: [SportsBook],
+      title: "The SportsBook",
+      info: "JavaScript | The Odds API | HTML | CSS",
+      caption:
+        "I built the SportsBook 2 weeks into learning how to code. It's a web application that allows users to see the different gambling odds for the NBA pulled from a 3rd party API",
     },
   ];
 
@@ -59,8 +68,20 @@ const Projects = (props) => {
         <div className="project-title">{projects[projectIndex].title}</div>
         <div className="project-info">{projects[projectIndex].info}</div>
         <div className="project-links">
-        <div className="project-link">GitHub</div>
-          <div className="project-link">Website</div>
+        <a
+        href={projects[projectIndex].github}
+        target="_blank"
+            rel="noreferrer" 
+          >
+            <div className="project-link">GitHub</div>
+          </a>
+          <a
+        href={projects[projectIndex].website}
+        target="_blank"
+            rel="noreferrer" 
+          >
+            <div className="project-link">Website</div>
+            </a>
           </div>
         <div className="project-caption">{projects[projectIndex].caption}</div>
         <div className="multi-images-project">{PicturesJSX}</div>
@@ -79,15 +100,6 @@ const Projects = (props) => {
 };
 
 export default Projects;
-
-
-  /* <a
-        href="https://songsu.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
-      </a> */
-
 
 // return (
 //   <div className="projects-container" id="projects">
