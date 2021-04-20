@@ -10,7 +10,7 @@ const AboutMe = (props) => {
       <div className="aboutme-container" id="about-me">
       <div className="nav-links-container">
           {/* <Link to="/contact"> */}
-            <div className="nav-links">Contact</div>
+            {/* <div className="nav-links">Contact</div> */}
           {/* </Link> */}
           <a
            href="https://drive.google.com/file/d/1jRJ2w4R_jzQQO2v68QyE61ZuqhOlMkik/view?usp=sharing"
