@@ -1,7 +1,7 @@
 import AboutMe from "../../components/About Me/AboutMe"
 import Projects from "../../components/Projects/Projects"
 import Skills from "../../components/Skills/Skills"
-import {Route} from "react-scroll"
+// import {Route} from "react-scroll"
 
 const Home = (props) => {
   return (

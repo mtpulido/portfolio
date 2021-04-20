@@ -1,4 +1,4 @@
-import SportsBook from "../../sportsbooks.png";
+// import SportsBook from "../../sportsbooks.png";
 import GolfCrunch from "../../golfcrunch.png";
 import GolfCrunch2 from "../../golfcrunch2.png";
 import SongsYou from "../../songsyou.png";
@@ -80,14 +80,14 @@ const Projects = (props) => {
 
 export default Projects;
 
-{
+
   /* <a
         href="https://songsu.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
       </a> */
-}
+
 
 // return (
 //   <div className="projects-container" id="projects">
