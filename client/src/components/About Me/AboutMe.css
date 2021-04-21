@@ -29,7 +29,6 @@
 .nav-links {
   font-size: 22px;
   color: #fafbfc;
-  padding: 0 50px;
 }
 a {
   text-decoration: none;
@@ -92,4 +91,60 @@ a {
   justify-content: flex-end;
   align-items: center;
   padding-right: 15px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .greeting {
+    font-size: 55px;
+    color: #f8f8f8;
+  }
+
+  .tagline {
+    font-size: 45px;
+    color: #f8f8f8;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .greeting {
+    font-size: 45px;
+    color: #f8f8f8;
+  }
+
+  .tagline {
+    font-size: 35px;
+    color: #f8f8f8;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .greeting {
+    font-size: 25px;
+    color: #f8f8f8;
+  }
+
+  .tagline {
+    font-size: 22px;
+    color: #f8f8f8;
+  }
+
+  .arrow-navigation {
+    height: 40px;
+    width: 85px;
+    color: transparent;
+    text-shadow: 0 0 0 #3594fa;
+    align-self: flex-end;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+  }
+  .nav-links-container {
+  padding-right: 15px;
+  
+  }
+
+  .nav-links {
+    font-size: 18px;
+    color: #fafbfc;
+  }
 }
