@@ -1,5 +1,5 @@
 .project-image {
-width: 60vw;
+width: 55vw;
 }
 
 .projects-container {
@@ -7,36 +7,31 @@ width: 60vw;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height:90vh;
+  height:100vh;
 }
 .carousel-container {
-  height: 60vh;
-  max-width: 100vw;
-  display: grid;
-  grid-template-areas: 
-  "P T T"
-  "P S S"
-  "P L L"
-  "P D D"
-  "P B B";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
 }
 
 .multi-images-project {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  width: 60vw;
+  width: 55vw;
   height: auto;
+  max-height: 55vh;
   grid-area: P;
   overflow: hidden;
 }
 
 .project-title {
-  grid-area: T;
   font-size: 40px;
-  height: 8vh;
+  height: auto;
   display: flex;
-  padding-left: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -45,26 +40,22 @@ width: 60vw;
 }
 
 .project-info {
-  grid-area: S;
-  height: 10vh;
+ 
+  height: auto;
   display: flex;
   /* justify-content: center; */
   font-size: 18px;
   font-weight: 600;
-  padding-left: 10px;
-  width: 37vw;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .project-links {
-  height: 8vh;
+  height: auto;
   grid-area: L;
   display: flex;
   justify-content: space-between;
-  width: 20vw;
-  min-width: 350px;
-  padding-left: 10px;
+  width: 350px;
 }
 
 .project-link {
@@ -89,15 +80,13 @@ width: 60vw;
 
 .project-caption {
   grid-area: D;
-  height: 25vh;
+  height: auto;
   display: flex;
+  width: 60vw;
   /* justify-content: center; */
   font-size: 25px;
-  width: 37vw;
-  padding-left: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-right: 5px;
 }
 
 
@@ -105,9 +94,7 @@ width: 60vw;
   grid-area: B;
   display: flex;
   justify-content: space-between;
-  width: 20vw;
-  padding-left: 10px;
-  min-width: 350px;
+  width: 350px;
 }
 .next-button {
   font-size: 20px;
@@ -195,131 +182,7 @@ width: 60vw;
 }
 
 @media only screen and (max-width: 1050px) {
-  .project-image {
-    width: 60vw;
-    }
-    
-    .projects-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 50px;
-      width: 100vw;
-      height:90vh;
-    }
-    .carousel-container {
-      height: 45vh;
-      max-width: 100vw;
-      display: grid;
-      grid-template-areas: 
-      "S T T"
-      "P L L"
-      "P D D"
-      "P B B";
-    }
-    .multi-images-project {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      width: 60vw;
-      height: 40vh;
-      grid-area: P;
-      overflow: hidden;
-    }
-    .project-title {
-      grid-area: T;
-      font-size: 40px;
-      height: 8vh;
-      display: flex;
-      align-items: flex-end;
-      padding-left: 10px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      /* justify-content: center; */
-      /* width: 38vw; */
-    }
-    .project-info {
-      grid-area: S;
-      display: flex;
-      align-items: flex-end;
-      /* justify-content: center; */
-      font-size: 18px;
-      font-weight: 600;
-      padding-left: 10px;
-      width: 60vw;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .project-links {
-      height: 3vh;
-      grid-area: L;
-      display: flex;
-      justify-content: flex-start;
-      width: 20vw;
-      min-width: 350px;
-      padding-left: 10px;
-    }
-    .project-link {
-      font-size: 20px;
-      width: 115px;
-      height: 40px;
-      background-color: #9900FF  ;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50px;
-      filter: drop-shadow(0 0 1px grey);
-      margin-right: 15px;
-    }
-    .project-caption {
-      grid-area: D;
-      height: 12vh;
-      display: flex;
-      /* justify-content: center; */
-      font-size: 20px;
-      width: 37vw;
-      padding-left: 10px;
-      overflow:visible;
-      text-overflow: none;
-      padding-right: 5px;
-    }
-    .project-buttons {
-      grid-area: B;
-      display: flex;
-      justify-content: flex-start;
-      width: 20vw;
-      padding-left: 10px;
-      min-width: 350px;
-      height: 11vh;
-    }
-    .next-button {
-      font-size: 20px;
-      width: 115px;
-      height: 40px;
-      background-color: #0099ff;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50px;
-      filter: drop-shadow(0 0 1px grey);
-     
-    }
-    .back-button {
-      font-size: 20px;
-      width: 115px;;
-      height: 40px;
-      background-color: #0099ff;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50px;
-      filter: drop-shadow(0 0 1px grey);
-      margin-right: 15px;
-    }
+  
 }
 
 @media only screen and (max-width: 730px) {
@@ -370,7 +233,7 @@ width: 60vw;
       /* justify-content: center; */
       font-size: 18px;
       font-weight: 600;
-      width: 100vw;
+      width: 95vw;
       overflow: hidden;
       text-overflow: ellipsis;
       padding-left: 0;

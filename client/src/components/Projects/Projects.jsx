@@ -41,7 +41,7 @@ const Projects = (props) => {
       github: "https://github.com/mtpulido/Pulido-SportsBook",
       picture: GolfCrunch,
       title: "Golf Crunch",
-      info: "React | JavaScript | JSX | CRUD |Airtable | CSS",
+      info: "React | JavaScript | CRUD |Airtable | CSS",
       caption:
         "A mobile application that helps golfers of all skill levels keep track of their statistics, access customized analysis, and view the rounds their friends have submitted.",
     },
@@ -69,14 +69,6 @@ const Projects = (props) => {
       >
           <div className="carousel-container">
             <div className="multi-images-project"><PictureArray picture={projects[projectIndex].picture}/></div>
-            <div className="project-buttons">
-        <div onClick={decrementIndex} className="back-button">
-          back
-        </div>
-              <div onClick={incrementIndex} className="next-button">
-            next
-        </div>
-        </div>
         <div className="project-title">{projects[projectIndex].title}</div>
         <div className="project-info">{projects[projectIndex].info}</div>
         <div className="project-links">
@@ -96,7 +88,14 @@ const Projects = (props) => {
             </a>
           </div>
         <div className="project-caption">{projects[projectIndex].caption}</div>
-       
+        <div className="project-buttons">
+        <div onClick={decrementIndex} className="back-button">
+          back
+        </div>
+              <div onClick={incrementIndex} className="next-button">
+            next
+        </div>
+        </div>
           </div>
           </CSSTransition>
       </SwitchTransition>
