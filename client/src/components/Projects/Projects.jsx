@@ -28,15 +28,6 @@ const Projects = (props) => {
         "A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks.",
     },
     {
-      website: "https://mtpulido.github.io/Pulido-SportsBook/",
-      github: "https://github.com/mtpulido/The-Golf-Crunch-App",
-      picture: SportsBook,
-      title: "The SportsBook",
-      info: "JavaScript | The Odds API | HTML | CSS",
-      caption:
-        "I built the SportsBook 2 weeks into learning how to code. It's a web application that allows users to see the different gambling odds for the NBA pulled from a 3rd party API",
-    },
-    {
       website: "https://golf-crunch.netlify.app/",
       github: "https://github.com/mtpulido/Pulido-SportsBook",
       picture: GolfCrunch,
@@ -45,6 +36,15 @@ const Projects = (props) => {
       caption:
         "A mobile application that helps golfers of all skill levels keep track of their statistics, access customized analysis, and view the rounds their friends have submitted.",
     },
+    {
+      website: "https://mtpulido.github.io/Pulido-SportsBook/",
+      github: "https://github.com/mtpulido/The-Golf-Crunch-App",
+      picture: SportsBook,
+      title: "The SportsBook",
+      info: "JavaScript | The Odds API | HTML | CSS",
+      caption:
+        "I built the SportsBook 2 weeks into learning how to code. It's a web application that allows users to see the different gambling odds for the NBA pulled from a 3rd party API",
+    }
   ];
 
   const [projectIndex, setProjectIndex] = useState(0);
