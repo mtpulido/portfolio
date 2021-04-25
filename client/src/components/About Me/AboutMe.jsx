@@ -12,7 +12,7 @@ const AboutMe = (props) => {
             {/* <div className="nav-links">Contact</div> */}
           {/* </Link> */}
           <a
-           href="https://drive.google.com/file/d/1jRJ2w4R_jzQQO2v68QyE61ZuqhOlMkik/view?usp=sharing"
+           href="https://drive.google.com/file/d/1yV7zi3JsnIlPf1UqKT-Xr7lTKWRb99Se/view?usp=sharing"
            target="_blank"
            rel="noreferrer">
             <div className="nav-links">Resumé & Contact Info</div>
