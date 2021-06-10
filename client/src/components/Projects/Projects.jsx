@@ -6,9 +6,21 @@ import { useState } from "react";
 import PictureArray from "../PicturesArray/PictureArray";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
 import GolfCrunch from "../../golfcrunchcombined.png"
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import ClubHouse from "../../clubhouse.png"
 
 const Projects = (props) => {
   const projects = [
+    {
+      website: "https://clubhouse-app.netlify.app/",
+      github: "https://github.com/mtpulido/ClubHouse",
+      picture: ClubHouse,
+      title: "ClubHouse",
+      info: "React | Express | MongoDB | Mongoose | JavaScript | Heroku | Material-Ui",
+      caption:
+        "My Crown Jewel Project. A full stack app that allows users to track their statistics for golf, create and join groups with their friends, query by different categories and timeframes, and improve their golf game.",
+    },
     {
       website: "https://songsu.netlify.app/",
       github: "https://github.com/jstiles44/P3-Playlist-App/tree/devpmvp",
@@ -19,22 +31,13 @@ const Projects = (props) => {
         "A group project utilizing the full stack that allows users to build, edit, and listen to playlists. We capture data that measures individual user analytics and global user analytics to improve the UX.",
     },
     {
-      website: "https://sales-skywalker.netlify.app/",
-      github: "https://github.com/mtpulido/Sales-Skywalker",
-      picture: SalesSkywalker,
-      title: "Sales Skywalker",
-      info: "Ruby on Rails | JavaScript | React | PostgreSQL | Heroku | CSS",
-      caption:
-        "A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks.",
-    },
-    {
       website: "https://golf-crunch.netlify.app/",
       github: "https://github.com/mtpulido/Pulido-SportsBook",
       picture: GolfCrunch,
       title: "Golf Crunch",
-      info: "React | JavaScript | CRUD |Airtable | CSS",
+      info: "React | JavaScript | CRUD | Airtable | CSS",
       caption:
-        "A mobile application that helps golfers of all skill levels keep track of their statistics, access customized analysis, and view the rounds their friends have submitted.",
+        "A mobile application that helps golfers of all skill levels keep track of their statistics, and access customized analysis. Inspired the ClubHouse app.",
     },
     {
       website: "https://mtpulido.github.io/Pulido-SportsBook/",
@@ -90,10 +93,10 @@ const Projects = (props) => {
         <div className="project-caption">{projects[projectIndex].caption}</div>
         <div className="project-buttons">
         <div onClick={decrementIndex} className="back-button">
-          back
+          <NavigateBeforeIcon  fontSize="large" />
         </div>
               <div onClick={incrementIndex} className="next-button">
-            next
+            <NavigateNextIcon fontSize="large"/>
         </div>
         </div>
           </div>

@@ -59,6 +59,7 @@ a {
 .arrow-navigation {
   height: 60px;
   width: 110px;
+  margin-bottom: 40px;
   color: transparent;
   text-shadow: 0 0 0 #3594fa;
   align-self: flex-end;
