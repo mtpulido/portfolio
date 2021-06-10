@@ -22,6 +22,15 @@ const Projects = (props) => {
         "My Crown Jewel Project. A full stack app that allows users to track their statistics for golf, create and join groups with their friends, query by different categories and timeframes, and improve their golf game.",
     },
     {
+      website: "https://sales-skywalker.netlify.app/",
+      github: "https://github.com/mtpulido/Sales-Skywalker",
+      pictures: SalesSkywalker,
+      title: "Sales Skywalker",
+      info: "Ruby on Rails | JavaScript | React | PostgreSQL | Heroku | CSS",
+      caption:
+        "A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks.",
+    },
+    {
       website: "https://songsu.netlify.app/",
       github: "https://github.com/jstiles44/P3-Playlist-App/tree/devpmvp",
       picture: SongsYou,
