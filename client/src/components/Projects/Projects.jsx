@@ -24,11 +24,11 @@ const Projects = (props) => {
     {
       website: "https://sales-skywalker.netlify.app/",
       github: "https://github.com/mtpulido/Sales-Skywalker",
-      pictures: SalesSkywalker,
+      picture: SalesSkywalker,
       title: "Sales Skywalker",
       info: "Ruby on Rails | JavaScript | React | PostgreSQL | Heroku | CSS",
       caption:
-        "A full-stack application functioning as a play-off of Sales Force. It shows users their relevant analytics to improve their performance as well as stay organized in their daily tasks.",
+        "A full-stack application functioning as a play-off of Sales Force. It utilizes full CRUD to allow users to manage their pool of prospects as well as stay organized in their daily tasks with To-Do lists.",
     },
     {
       website: "https://songsu.netlify.app/",
