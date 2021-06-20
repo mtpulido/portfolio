@@ -37,7 +37,7 @@ const Projects = (props) => {
       title: "SongsYOU",
       info: "React | Express | JavaScript | Mongoose | MongoDB | Heroku | CSS",
       caption:
-        "A group project utilizing the full stack that allows users to build, edit, and listen to playlists. We capture data that measures individual user analytics and global user analytics to improve the UX.",
+        "A group project that allows users to build, edit, and listen to playlists. We capture data that measures individual user analytics and global user analytics to improve the UX. (Not for mobile)",
     },
     {
       website: "https://golf-crunch.netlify.app/",
@@ -48,15 +48,15 @@ const Projects = (props) => {
       caption:
         "A mobile application that helps golfers of all skill levels keep track of their statistics, and access customized analysis. Inspired the ClubHouse app.",
     },
-    {
-      website: "https://mtpulido.github.io/Pulido-SportsBook/",
-      github: "https://github.com/mtpulido/The-Golf-Crunch-App",
-      picture: SportsBook,
-      title: "The SportsBook",
-      info: "JavaScript | The Odds API | HTML | CSS",
-      caption:
-        "I built the SportsBook 2 weeks into learning how to code. It's a web application that allows users to see the different gambling odds for the NBA pulled from a 3rd party API",
-    }
+    // {
+    //   website: "https://mtpulido.github.io/Pulido-SportsBook/",
+    //   github: "https://github.com/mtpulido/The-Golf-Crunch-App",
+    //   picture: SportsBook,
+    //   title: "The SportsBook",
+    //   info: "JavaScript | The Odds API | HTML | CSS",
+    //   caption:
+    //     "I built the SportsBook 2 weeks into learning how to code. It's a web application that allows users to see the different gambling odds for the NBA pulled from a 3rd party API",
+    // }
   ];
 
   const [projectIndex, setProjectIndex] = useState(0);
